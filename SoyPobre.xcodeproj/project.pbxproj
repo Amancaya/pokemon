@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A300C3D215C1F060060DFF8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A300C3C215C1F060060DFF8 /* AppDelegate.swift */; };
+		6A300C3F215C1F060060DFF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A300C3E215C1F060060DFF8 /* ViewController.swift */; };
+		6A300C42215C1F060060DFF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A300C40215C1F060060DFF8 /* Main.storyboard */; };
+		6A300C44215C1F0A0060DFF8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A300C43215C1F0A0060DFF8 /* Assets.xcassets */; };
+		6A300C47215C1F0A0060DFF8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A300C45215C1F0A0060DFF8 /* LaunchScreen.storyboard */; };
+		6A300C52215C1F0A0060DFF8 /* SoyPobreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A300C51215C1F0A0060DFF8 /* SoyPobreTests.swift */; };
+		6A300C5D215C1F0A0060DFF8 /* SoyPobreUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A300C5C215C1F0A0060DFF8 /* SoyPobreUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6A300C4E215C1F0A0060DFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A300C31215C1F060060DFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A300C38215C1F060060DFF8;
+			remoteInfo = SoyPobre;
+		};
+		6A300C59215C1F0A0060DFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6A300C31215C1F060060DFF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A300C38215C1F060060DFF8;
+			remoteInfo = SoyPobre;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A300C39215C1F060060DFF8 /* SoyPobre.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoyPobre.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A300C3C215C1F060060DFF8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A300C3E215C1F060060DFF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A300C41215C1F060060DFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A300C43215C1F0A0060DFF8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A300C46215C1F0A0060DFF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A300C48215C1F0A0060DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A300C4D215C1F0A0060DFF8 /* SoyPobreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyPobreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A300C51215C1F0A0060DFF8 /* SoyPobreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoyPobreTests.swift; sourceTree = "<group>"; };
+		6A300C53215C1F0A0060DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A300C58215C1F0A0060DFF8 /* SoyPobreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoyPobreUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A300C5C215C1F0A0060DFF8 /* SoyPobreUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoyPobreUITests.swift; sourceTree = "<group>"; };
+		6A300C5E215C1F0A0060DFF8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6A300C36215C1F060060DFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A300C4A215C1F0A0060DFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A300C55215C1F0A0060DFF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A300C30215C1F060060DFF8 = {
+			isa = PBXGroup;
+			children = (
+				6A300C3B215C1F060060DFF8 /* SoyPobre */,
+				6A300C50215C1F0A0060DFF8 /* SoyPobreTests */,
+				6A300C5B215C1F0A0060DFF8 /* SoyPobreUITests */,
+				6A300C3A215C1F060060DFF8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6A300C3A215C1F060060DFF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A300C39215C1F060060DFF8 /* SoyPobre.app */,
+				6A300C4D215C1F0A0060DFF8 /* SoyPobreTests.xctest */,
+				6A300C58215C1F0A0060DFF8 /* SoyPobreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6A300C3B215C1F060060DFF8 /* SoyPobre */ = {
+			isa = PBXGroup;
+			children = (
+				6A300C3C215C1F060060DFF8 /* AppDelegate.swift */,
+				6A300C3E215C1F060060DFF8 /* ViewController.swift */,
+				6A300C40215C1F060060DFF8 /* Main.storyboard */,
+				6A300C43215C1F0A0060DFF8 /* Assets.xcassets */,
+				6A300C45215C1F0A0060DFF8 /* LaunchScreen.storyboard */,
+				6A300C48215C1F0A0060DFF8 /* Info.plist */,
+			);
+			path = SoyPobre;
+			sourceTree = "<group>";
+		};
+		6A300C50215C1F0A0060DFF8 /* SoyPobreTests */ = {
+			isa = PBXGroup;
+			children = (
+				6A300C51215C1F0A0060DFF8 /* SoyPobreTests.swift */,
+				6A300C53215C1F0A0060DFF8 /* Info.plist */,
+			);
+			path = SoyPobreTests;
+			sourceTree = "<group>";
+		};
+		6A300C5B215C1F0A0060DFF8 /* SoyPobreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6A300C5C215C1F0A0060DFF8 /* SoyPobreUITests.swift */,
+				6A300C5E215C1F0A0060DFF8 /* Info.plist */,
+			);
+			path = SoyPobreUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6A300C38215C1F060060DFF8 /* SoyPobre */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A300C61215C1F0A0060DFF8 /* Build configuration list for PBXNativeTarget "SoyPobre" */;
+			buildPhases = (
+				6A300C35215C1F060060DFF8 /* Sources */,
+				6A300C36215C1F060060DFF8 /* Frameworks */,
+				6A300C37215C1F060060DFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoyPobre;
+			productName = SoyPobre;
+			productReference = 6A300C39215C1F060060DFF8 /* SoyPobre.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6A300C4C215C1F0A0060DFF8 /* SoyPobreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A300C64215C1F0A0060DFF8 /* Build configuration list for PBXNativeTarget "SoyPobreTests" */;
+			buildPhases = (
+				6A300C49215C1F0A0060DFF8 /* Sources */,
+				6A300C4A215C1F0A0060DFF8 /* Frameworks */,
+				6A300C4B215C1F0A0060DFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A300C4F215C1F0A0060DFF8 /* PBXTargetDependency */,
+			);
+			name = SoyPobreTests;
+			productName = SoyPobreTests;
+			productReference = 6A300C4D215C1F0A0060DFF8 /* SoyPobreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6A300C57215C1F0A0060DFF8 /* SoyPobreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A300C67215C1F0A0060DFF8 /* Build configuration list for PBXNativeTarget "SoyPobreUITests" */;
+			buildPhases = (
+				6A300C54215C1F0A0060DFF8 /* Sources */,
+				6A300C55215C1F0A0060DFF8 /* Frameworks */,
+				6A300C56215C1F0A0060DFF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6A300C5A215C1F0A0060DFF8 /* PBXTargetDependency */,
+			);
+			name = SoyPobreUITests;
+			productName = SoyPobreUITests;
+			productReference = 6A300C58215C1F0A0060DFF8 /* SoyPobreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6A300C31215C1F060060DFF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = kaya;
+				TargetAttributes = {
+					6A300C38215C1F060060DFF8 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					6A300C4C215C1F0A0060DFF8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6A300C38215C1F060060DFF8;
+					};
+					6A300C57215C1F0A0060DFF8 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 6A300C38215C1F060060DFF8;
+					};
+				};
+			};
+			buildConfigurationList = 6A300C34215C1F060060DFF8 /* Build configuration list for PBXProject "SoyPobre" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6A300C30215C1F060060DFF8;
+			productRefGroup = 6A300C3A215C1F060060DFF8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6A300C38215C1F060060DFF8 /* SoyPobre */,
+				6A300C4C215C1F0A0060DFF8 /* SoyPobreTests */,
+				6A300C57215C1F0A0060DFF8 /* SoyPobreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6A300C37215C1F060060DFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A300C47215C1F0A0060DFF8 /* LaunchScreen.storyboard in Resources */,
+				6A300C44215C1F0A0060DFF8 /* Assets.xcassets in Resources */,
+				6A300C42215C1F060060DFF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A300C4B215C1F0A0060DFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A300C56215C1F0A0060DFF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6A300C35215C1F060060DFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A300C3F215C1F060060DFF8 /* ViewController.swift in Sources */,
+				6A300C3D215C1F060060DFF8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A300C49215C1F0A0060DFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A300C52215C1F0A0060DFF8 /* SoyPobreTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A300C54215C1F0A0060DFF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A300C5D215C1F0A0060DFF8 /* SoyPobreUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6A300C4F215C1F0A0060DFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A300C38215C1F060060DFF8 /* SoyPobre */;
+			targetProxy = 6A300C4E215C1F0A0060DFF8 /* PBXContainerItemProxy */;
+		};
+		6A300C5A215C1F0A0060DFF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6A300C38215C1F060060DFF8 /* SoyPobre */;
+			targetProxy = 6A300C59215C1F0A0060DFF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6A300C40215C1F060060DFF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A300C41215C1F060060DFF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6A300C45215C1F0A0060DFF8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6A300C46215C1F0A0060DFF8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6A300C5F215C1F0A0060DFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6A300C60215C1F0A0060DFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6A300C62215C1F0A0060DFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoyPobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItGroup.SoyPobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6A300C63215C1F0A0060DFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoyPobre/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItGroup.SoyPobre;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6A300C65215C1F0A0060DFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoyPobreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItGroup.SoyPobreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoyPobre.app/SoyPobre";
+			};
+			name = Debug;
+		};
+		6A300C66215C1F0A0060DFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoyPobreTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItGroup.SoyPobreTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SoyPobre.app/SoyPobre";
+			};
+			name = Release;
+		};
+		6A300C68215C1F0A0060DFF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoyPobreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItGroup.SoyPobreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoyPobre;
+			};
+			name = Debug;
+		};
+		6A300C69215C1F0A0060DFF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = SoyPobreUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ItGroup.SoyPobreUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SoyPobre;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6A300C34215C1F060060DFF8 /* Build configuration list for PBXProject "SoyPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A300C5F215C1F0A0060DFF8 /* Debug */,
+				6A300C60215C1F0A0060DFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A300C61215C1F0A0060DFF8 /* Build configuration list for PBXNativeTarget "SoyPobre" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A300C62215C1F0A0060DFF8 /* Debug */,
+				6A300C63215C1F0A0060DFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A300C64215C1F0A0060DFF8 /* Build configuration list for PBXNativeTarget "SoyPobreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A300C65215C1F0A0060DFF8 /* Debug */,
+				6A300C66215C1F0A0060DFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A300C67215C1F0A0060DFF8 /* Build configuration list for PBXNativeTarget "SoyPobreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A300C68215C1F0A0060DFF8 /* Debug */,
+				6A300C69215C1F0A0060DFF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6A300C31215C1F060060DFF8 /* Project object */;
+}
