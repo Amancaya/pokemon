@@ -97,11 +97,10 @@
 		6A300C3B215C1F060060DFF8 /* SoyPobre */ = {
 			isa = PBXGroup;
 			children = (
+				6A300C6B215C1F830060DFF8 /* Storyboard */,
+				6A300C6A215C1F310060DFF8 /* ViewController */,
 				6A300C3C215C1F060060DFF8 /* AppDelegate.swift */,
-				6A300C3E215C1F060060DFF8 /* ViewController.swift */,
-				6A300C40215C1F060060DFF8 /* Main.storyboard */,
 				6A300C43215C1F0A0060DFF8 /* Assets.xcassets */,
-				6A300C45215C1F0A0060DFF8 /* LaunchScreen.storyboard */,
 				6A300C48215C1F0A0060DFF8 /* Info.plist */,
 			);
 			path = SoyPobre;
@@ -123,6 +122,23 @@
 				6A300C5E215C1F0A0060DFF8 /* Info.plist */,
 			);
 			path = SoyPobreUITests;
+			sourceTree = "<group>";
+		};
+		6A300C6A215C1F310060DFF8 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6A300C3E215C1F060060DFF8 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6A300C6B215C1F830060DFF8 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				6A300C45215C1F0A0060DFF8 /* LaunchScreen.storyboard */,
+				6A300C40215C1F060060DFF8 /* Main.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

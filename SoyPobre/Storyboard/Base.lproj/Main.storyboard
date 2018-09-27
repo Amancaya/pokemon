@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="SoyPobre" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Que pokemon eres?" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0Wj-77-6F1">
+                                <rect key="frame" x="44" y="70" width="287.5" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="bwX-yF-M2C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="DamascusBold" family="Damascus" pointSize="30"/>
+                                <color key="textColor" red="0.96623290923332206" green="1" blue="0.95735355951096746" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <size key="shadowOffset" width="0.0" height="1"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pokebola" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0z0-J5-zeh">
+                                <rect key="frame" x="-27" y="90" width="428" height="487"/>
+                            </imageView>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="characterWrap" translatesAutoresizingMaskIntoConstraints="NO" id="BSN-f4-cy3">
+                                <rect key="frame" x="116.5" y="577" width="142" height="37"/>
+                                <color key="backgroundColor" red="0.43925001369119332" green="0.37196158227960008" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Verdana-Bold" family="Verdana" pointSize="20"/>
+                                <state key="normal" title="Descubrelo!!">
+                                    <color key="titleColor" red="0.99528690381595974" green="1" blue="0.98155233976325063" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="showPokemon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mln-tM-90H"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="0.55029685490000002" blue="0.10210572950000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0z0-J5-zeh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" constant="90" id="Eno-nl-XYg"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="0Wj-77-6F1" secondAttribute="trailing" id="Kay-Kq-gAE"/>
+                            <constraint firstItem="0Wj-77-6F1" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="P1A-Et-IDo"/>
+                            <constraint firstItem="0Wj-77-6F1" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UYy-1Y-JP3"/>
+                            <constraint firstItem="BSN-f4-cy3" firstAttribute="top" secondItem="0z0-J5-zeh" secondAttribute="bottom" id="YCz-dC-nOW"/>
+                            <constraint firstItem="0Wj-77-6F1" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="jdp-PP-18k"/>
+                            <constraint firstItem="0z0-J5-zeh" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="nhd-B7-tJI"/>
+                            <constraint firstItem="BSN-f4-cy3" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="oIv-wS-0Tp"/>
+                            <constraint firstItem="0z0-J5-zeh" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="tk3-JC-NVB"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="btnPress" destination="BSN-f4-cy3" id="scc-91-hkz"/>
+                        <outlet property="imgPokemon" destination="0z0-J5-zeh" id="QFv-RP-Jha"/>
+                        <outlet property="txtTitle" destination="0Wj-77-6F1" id="U01-7Y-D8b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="32.799999999999997" y="32.833583208395808"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="pokebola" width="428" height="453"/>
+    </resources>
+    <color key="tintColor" red="1" green="0.55029685494257108" blue="0.1021057294872646" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+</document>
